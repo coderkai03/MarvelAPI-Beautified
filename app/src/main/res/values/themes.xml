@@ -4,6 +4,17 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="android:fontFamily">@font/comic_neue_bold</item>
+        <item name="android:windowBackground">#1A73E8</item>
+    </style>
+
+    <style name="TextAppearance.Name" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">20dp</item>
+
+    </style>
+
+    <style name="WhiteBoxStyle">
+        <item name="android:background">@drawable/whitebox_blackoutline</item>
+        <item name="android:padding">10dp</item>
     </style>
 
     <style name="Theme.MarvelAPI" parent="Base.Theme.MarvelAPI" />
