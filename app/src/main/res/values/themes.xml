@@ -3,6 +3,7 @@
     <style name="Base.Theme.MarvelAPI" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:fontFamily">@font/comic_neue_bold</item>
     </style>
 
     <style name="Theme.MarvelAPI" parent="Base.Theme.MarvelAPI" />
