@@ -44,8 +44,8 @@ class MarvelAdapter(private val marvelList: MutableList<MarvelCharacter>) : Recy
             .centerCrop()
             .into(holder.marvelImage)
 
-        holder.characterNameTextView.text = character.name
-        holder.characterDateTextView.text = character.date
+        holder.characterNameTextView.text = "NAME:\n" + character.name
+        holder.characterDateTextView.text = "MODIFIED:\n" + character.date
     }
 
     override fun getItemCount() = marvelList.size

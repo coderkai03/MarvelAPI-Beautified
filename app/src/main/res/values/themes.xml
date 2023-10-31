@@ -15,6 +15,7 @@
     <style name="WhiteBoxStyle">
         <item name="android:background">@drawable/whitebox_blackoutline</item>
         <item name="android:padding">10dp</item>
+        <item name="android:gravity">end</item>
     </style>
 
     <style name="Theme.MarvelAPI" parent="Base.Theme.MarvelAPI" />
